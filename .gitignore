@@ -3,4 +3,5 @@ model_copy
 ppo_mario.zip
 params_log.txt
 .idea/
-__pycahches__/
+__pycahche__/
+*.pyc
