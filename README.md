@@ -35,7 +35,35 @@
 https://github.com/user-attachments/assets/df23f2c2-adf1-403e-8ee2-fc98deca5e44
 
 ## 📂 项目结构
+mario/
 
+├── best_model/
+
+│ ├── best_model.zip //存储最优模型
+
+├── evaluate_model.py  //跑一遍最优模型看效果
+
+├── make_env.py   //创建env环境
+
+├── train_model.py   //训练模型代码
+
+├── test/   //用于测试核心包是否能跑
+
+│ ├── A2C_cartpole(sb3).py   //测试sb3框架算法
+
+│ └── random_mario.py    //测试gym-super-mario-bros环境
+
+├── utils/  //工具库（其实目前就1个）
+
+│ ├── SkipFrameWrapper.py //跳帧类
+
+│ └── init.py
+
+├── .gitignore
+
+├── README.md
+
+└── requirements.txt
 
 ## 🔧安装提示
 运行pip install requirements
