@@ -1,7 +1,7 @@
 # 🎮 Super Mario Reinforcement Learning with PPO
 基于 ​​Stable-Baselines3 PPO 算法​​的超级马里奥智能体训练框架，实现自动化通关经典任天堂游戏环境。
 
-# 🚀 项目概述
+## 🚀 项目概述
 本项目利用近端策略优化（PPO）算法，在 gym-super-mario-bros环境中训练智能体学习通关策略。核心特性包括：
 
 •
@@ -19,4 +19,24 @@
 2. 使用跳帧处理，将多帧并做一帧，缓解奖励稀疏问题，加快收敛速度
 3. 对图片进行灰度处理和resize变换，简化图形
 4. 帧叠加处理，将连续帧作为向量传递，有利于捕捉动作信息
+
+## 📈训练过程
+训练曲线：
+
+<img width="307" height="242" alt="image" src="https://github.com/user-attachments/assets/0334aaf0-17ba-458d-9498-9f24d6729c81" />
+
+测试曲线：
+
+<img width="312" height="262" alt="image" src="https://github.com/user-attachments/assets/ad6ad024-d45f-4da3-ad55-9165c4f1d428" />
+
+## 🎥 结果展示
+
+
+https://github.com/user-attachments/assets/df23f2c2-adf1-403e-8ee2-fc98deca5e44
+
+## 📂 项目结构
+
+
+## 🔧安装提示
+运行pip install requirements
 
