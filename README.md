@@ -20,7 +20,7 @@
 3. 对图片进行灰度处理和resize变换，简化图形
 4. 帧叠加处理，将连续帧作为向量传递，有利于捕捉动作信息
 
-## 📈训练过程
+## 📈 训练过程
 训练曲线：
 
 <img width="307" height="242" alt="image" src="https://github.com/user-attachments/assets/0334aaf0-17ba-458d-9498-9f24d6729c81" />
@@ -65,6 +65,30 @@ mario/
 
 └── requirements.txt
 
-## 🔧安装提示
-运行pip install requirements
+## 🔧 环境安装
+1.确保有[Microsoft C++生成工具](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/)以及[Conda环境](https://www.anaconda.com/docs/getting-started/miniconda/main)
 
+2.用conda创建新环境，python版本为3.8
+
+3.在prompt里面输入以下三条命令
+
+pip install setuptools==65.5.0
+
+pip install wheel==0.38.4
+
+python.exe -m pip install pip==20.2.4
+
+4.进入requirements.txt目录，输入
+
+pip install -r requirements.txt
+
+5.安装gpu版本的torch，版本应该为torch-2.0.0%2Bcu118-cp38-cp38-win_amd64.whl
+
+## 💻 尝试自己训练模型
+自行选择：
+
+1.算法框架，基于已有包或者自己手写
+
+2.超参数选择（炼丹）
+
+3.根据自己的设备性能合理分配cpu和gpu资源
