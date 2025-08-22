@@ -93,5 +93,9 @@ pip install -r requirements.txt
 
 3.根据自己的设备性能合理分配cpu和gpu资源
 
-## 🎈项目未来工作
-引入前沿算法，打通到第三关以及之后关卡
+## 🎈 项目未来工作
+1.引入其他前沿算法（如Decision Transformer, Soft Actor-Critic），打通到第三关以及之后关卡
+
+2.手写算法框架
+
+3.算力支持条件下加大模型参数量
