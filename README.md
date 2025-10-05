@@ -96,6 +96,4 @@ pip install -r requirements.txt
 ## 🎈 项目未来工作
 1.引入其他前沿算法（如Decision Transformer, Soft Actor-Critic），打通到第三关以及之后关卡
 
-2.手写算法框架
-
-3.算力支持条件下加大模型参数量
+2.算力支持条件下加大模型参数量
