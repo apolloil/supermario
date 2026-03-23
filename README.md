@@ -84,16 +84,4 @@ pip install -r requirements.txt
 
 5.安装gpu版本的torch，版本应该为torch-2.0.0%2Bcu118-cp38-cp38-win_amd64.whl
 
-## 💻 尝试自己训练模型
-自行选择：
 
-1.算法框架，基于已有包或者自己手写
-
-2.超参数选择（炼丹）
-
-3.根据自己的设备性能合理分配cpu和gpu资源
-
-## 🎈 项目未来工作
-1.引入其他前沿算法（如Decision Transformer, Soft Actor-Critic），打通到第三关以及之后关卡
-
-2.算力支持条件下加大模型参数量
