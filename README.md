@@ -78,10 +78,10 @@ pip install wheel==0.38.4
 
 python.exe -m pip install pip==20.2.4
 
-4.进入requirements.txt目录，输入
+4.安装requirements依赖
 
 pip install -r requirements.txt
 
-5.安装gpu版本的torch，版本应该为torch-2.0.0%2Bcu118-cp38-cp38-win_amd64.whl
+
 
 
